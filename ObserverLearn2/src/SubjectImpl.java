@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Observer;
 
 public abstract class SubjectImpl implements Subject {
     private ArrayList<ObjectObserver> observers;
