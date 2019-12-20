@@ -1,3 +1,6 @@
+/**
+ * 策略模式
+ * */
 public class Test {
     public static void main(String[] args) {
         PeopleExtStrategy peopleExtStrategy = new PeopleExtStrategy(new UpFansOneStrategyImpl());
