@@ -1,3 +1,7 @@
+/**
+ * 接口适配器
+ * 万能变压器
+ * */
 public class Test {
     public static void main(String[] args) {
         DC5V dc5V = new DC5VImpl(new AC110V());
